@@ -26,7 +26,7 @@ int main()
 	while (cont) {
 		string answer{};
 		cout << "\n\n\n Enter the try word \t: ";
-		cin >> answer;
+		std::cin >> answer;
 		if (answer == chars)
 			a += 2;
 		cout << "a    = " << a << "\n";
@@ -61,11 +61,11 @@ int main()
 
 		
 		cout << pkte;
-		cin.get();
+		std::cin.get();
 		cout << pkteb;
 		cout << pkte32;
 	}
 	
-	cin.get();
+	std::cin.get();
 
 }
