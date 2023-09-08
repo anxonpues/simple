@@ -48,8 +48,22 @@ int main()
 		}
 		cout << "a    = " << a << "\n";
 		cout << "b    = " << b << "\n";
+		
+	
+		string pkte{ "press any key to continue" };
+		string pkteb{ "" };
+		string pkte32{ "" };
+		int pktel = pkte.length();
+		for (int i = 0; i < pktel; i++) {
+			pkteb.push_back('\b');
+			pkte32.push_back(' ');
+		}
 
+		
+		cout << pkte;
 		cin.get();
+		cout << pkteb;
+		cout << pkte32;
 	}
 	
 	cin.get();
